@@ -1,6 +1,10 @@
 extends KinematicBody2D
 
+<<<<<<< HEAD
 var new_ball = preload("res://Ball.tscn")
+=======
+var new_ball = preload("res://Scenes/Ball.tscn")
+>>>>>>> 2b5b68f16f885ef3e20ace810e7f4e197329abda
 
 func _ready():
  set_process_input(true)
@@ -17,4 +21,7 @@ func _input(event):
    ball.name = "Ball"
    ball.linear_velocity = Vector2(200, -200)
    get_parent().add_child(ball)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b5b68f16f885ef3e20ace810e7f4e197329abda
